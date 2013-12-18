@@ -1,0 +1,1 @@
+java -cp sqlite.jar:weka.jar:anon_toolbox.jar:ib1_anon.jar:. -Djava.library.path=. methods.ExpScenario -arff dataset/header.txt
