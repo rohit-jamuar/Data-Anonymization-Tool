@@ -47,10 +47,8 @@ In the example - **0:100,0:50-0:25-25:50,50:100-50:75-75:100** : The *Root node*
 
 ##Requirements for offline tool:
 1. **Python 2.6**
-2. **Flask 0.9** (Open terminal -> `sudo pip install flask`) 
-`If you don't have pip installed : http://www.pip-installer.org/en/latest/installing.html`
-3. **xml.etree.cElementTree** (Built-in Python module)
-4. **Tkinter** (Try importing Tkinter in your python interpreter. If import is successful - you're all set, else : Open terminal -> `sudo apt-get install python-tk`)
+2. **xml.etree.cElementTree** (Built-in Python module)
+3. **Tkinter** (Try importing Tkinter in your python interpreter. If import is successful - you're all set, else : Open terminal -> `sudo apt-get install python-tk`)
 
 ##Running the offline tool
 1. Download the tool from : http://data-anonymization-tool.herokuapp.com/static/Tool.tar.gz
