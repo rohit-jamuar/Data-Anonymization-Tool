@@ -41,7 +41,7 @@ In the example - **0:100,0:50-0:25-25:50,50:100-50:75-75:100** : The *Root node*
 	1.	Statistical information (i.e. mean and variance) for the numerical attributes 
 	2.	For categorical attributes, the format yields complete distribution. 
 
-* **anatomy** : This format yields two tables at the end of the process - both table having the same number of tuples as the original dataset. 
+* **anatomy** : This format yields two tables at the end of the process - both tables having the same number of tuples as the original dataset. 
 	1.	The first table (a.k.a. ST) consists of tuples with their Quasi-Identifiers replaced by the *Equivalence Class* that they belong to. 
 	2.	The second table (a.k.a. QIT) contains the replaced attribute values (same as above) along with the most specific quasi-identifier values.
 
