@@ -62,7 +62,7 @@ In the example - **0:100,0:50-0:25-25:50,50:100-50:75-75:100** : The *Root node*
 
 
 ##Constraints
-1. As of now, the tool only support **VGH**s of height **2**.
+1. As of now, the tool only support **VGH** binary trees of height **2**.
 2. Only categorical sensitive attributes are supported.
 3. Only one sensitive attribute could be accommodated with the current algorithm.
 4. The input file should be an unstructured text file - interfacing with commonly used database systems (SQLite, Postgres, etc.) is not possible, as of now.
