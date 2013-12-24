@@ -1,7 +1,8 @@
 Data Anonymization Tool
 =======================
 ##Using online application: 
-The online application is hosted at :  http://data-anonymization-tool.herokuapp.com/
+
+[Online application](http://data-anonymization-tool.herokuapp.com/)
 
 The online application is displayed on the **RHS** of algorithm-specific pages.
 
@@ -51,7 +52,7 @@ In the example - **0:100,0:50-0:25-25:50,50:100-50:75-75:100** : The *Root node*
 3. **Tkinter** (Try importing Tkinter in your python interpreter. If import is successful - you're all set, else : Open terminal -> `sudo apt-get install python-tk`)
 
 ##Running the offline tool
-1. Download the tool from : http://data-anonymization-tool.herokuapp.com/static/Tool.tar.gz
+1. Download the [offline tool](http://data-anonymization-tool.herokuapp.com/static/Tool.tar.gz).
 2. Go to the download location and unzip the tarball.
 3. Open terminal -> chmod a+x application.py
 4. *From terminal* -> ./application.py
