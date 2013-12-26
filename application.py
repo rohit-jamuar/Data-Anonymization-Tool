@@ -53,9 +53,9 @@ class GUI(Frame):
 				self.__entries[i]=Entry(self.__rows[i],bd=5)
 				self.__entries[i].configure(justify=CENTER,width=55)
 				if i==1:
-					self.__entries[i].insert(0,'Input/census-income_1K.data')
+					self.__entries[i].insert(0,'Input/census-income_1K.txt')
 				elif i==2:
-					self.__entries[i].insert(0,'Output/'+'Output-%s.data'%opt)
+					self.__entries[i].insert(0,'Output/'+'Output-%s.txt'%opt)
 				elif i==3:
 					self.__entries[i].insert(0,'\',\'')	
 				elif i==4:
