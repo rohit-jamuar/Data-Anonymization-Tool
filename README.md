@@ -14,7 +14,7 @@ k | 10 | The k value from k-anonymization algorithms. The value of k should be a
 t | 0.2 | The t value defines the threshold value for algorithm implementing t-closeness. The value of t should be a real number between 0 and 1.
 Suppression Threshold | k | This number defines the maximum number of tuples which can be suppressed.
 Output Type | genVals | The output for anonymization can be produced in one of three available formats : *genVals*,*genValsDist*,*anatomy*
-Anonymize | -NA- | The online tool produces result in *genVals* format. In order to explore other formats, download the tool!
+Anonymize | -NA- | The tool produces result in *genVals* format (by default). In order to explore other formats, choose the format of your choice (from the dropdown menu) and click on *Anonymize*.
 
 ##Writing your own config file
 
