@@ -102,7 +102,7 @@ class XMLWriter:
 					self.e.set('cat',self.s_cat[colIndex][index][0])
 					self.e.set('int',self.s_cat[colIndex][index][1])
 		
-		#Currently, the tool doesn't support hierarchical sensitive fields. Once it does, the commented portion can be used un-commented and used.
+		#Currently, the tool doesn't support hierarchical sensitive fields. Once it does, the commented portion can be un-commented and used.
 		'''
 		if self.s_hei:
 			for colIndex in self.s_hei:
