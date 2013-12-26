@@ -4,7 +4,7 @@ Data Anonymization Tool
 
 [Online application](http://data-anonymization-tool.herokuapp.com/)
 
-The online application is displayed on the **RHS** of algorithm-specific pages.
+There is an overlap of fields that you'll see on online application and the offline tool. Following describes what these fields represent and how you should go about populating them (in the offline tool, i.e.) : 
 
 **Field name** | **Default Value** | **Comment(s)**
 :-----------------: | :-------------------------: | :----------:
