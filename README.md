@@ -1,8 +1,6 @@
 Data Anonymization Tool
 =======================
-##Using online application: 
 
-[Online application](http://data-anonymization-tool.herokuapp.com/)
 
 There is an overlap of fields that you'll see on online application and the offline tool. Following describes what these fields represent and how you should go about populating them (in the offline tool, i.e.) : 
 
@@ -67,3 +65,6 @@ In the example - **0:100,0:50-0:25-25:50,50:100-50:75-75:100** : The *Root node*
 2. Only categorical sensitive attributes are supported.
 3. Only one sensitive attribute could be accommodated with the current algorithm.
 4. The input file should be an unstructured text file - interfacing with commonly used database systems (SQLite, Postgres, etc.) is not possible, as of now.
+
+
+The Online application is hosted [here](http://data-anonymization-tool.herokuapp.com/).
