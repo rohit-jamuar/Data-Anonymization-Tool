@@ -6,7 +6,7 @@ There is an overlap of fields that you'll see on online application and the offl
 
 **Field name** | **Default Value** | **Comment(s)**
 :-----------------: | :-------------------------: | :----------:
-Input file's path | Input/census-income_1K.txt     | The sample input file can be downloaded by clicking on 'Input file's path' on the application. If you intend to anonymize a dataset of your choice, you should provide the entire path of your dataset in the field.
+Input file's path | Input/census-income_1K.txt     | The sample input file can be viewed at the default location - as stated in the *Default value* column. If you intend to anonymize a dataset of your choice, you should provide the entire path of your dataset in the field.
 Output file's name | Output/Output-*(algorithm)*.txt | The output is generated in the folder named `Output` with name of the resulting dataset defined as Output-*(algorithm)*_*(format type)*.txt . Also, should you feed a custom value to this field, make sure that the name is in format : **(name).(some-extension)** - there has to be a **.** in the output file's name for generating generalized dataset in *anatomy* format.
 Separator | **,** | In the sample text provided, the separator (delimiter) used for differentiating one attribute from other (in a record) is ','.
 TXT Path | config/config.txt | This is the file using which an configuration XML is generated which essentially controls the tool's behavior. You can view the default file being used by clicking on 'TXT Path' on the application. More about writing you own config file after this table.
