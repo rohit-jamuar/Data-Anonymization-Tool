@@ -32,7 +32,7 @@ Quasi-identifiers can have either :
 
 2.Hierarchical attributes (hei) - These attributes have **VGH**(*value generalized hierarchies*). These hierarchies can be represented in the following format *Root node*,*Left subtree*,*Right subtree*. 
 
-In the sample dataset, one of the fields (Column# 0) have the following VGH - 
+In the sample dataset, one of the fields (Column# **0**) have the following VGH - 
 
 					 		0:100
 							/   \
@@ -40,7 +40,7 @@ In the sample dataset, one of the fields (Column# 0) have the following VGH -
 					  /    \	 /     \		
 					0:25  25:50 50:75 75:100
 			
-This can be transalated as : **0:100,0:25-0:50-25:50,50:75-50:100-75:100** - The *Root node* is represented by 0:100. *Root node* has three nodes in its left subtree: 0:50, 0:25 and 25:50. In the left subtree, 0:25 represents the root of the left subtree whereas 0:50 and 25:50 represent the left (leaf) child and the right (leaf) child, respectively. Similarly, *Root node* has three nodes in its right subtree: 50:100, 50:75 and 75:100. In the right subtree, 50:75 represents the root of the right subtree whereas 50:100 and 75:100 represent the left (leaf) child and the right (leaf) child, respectively. The attributes in this category are generalized bottom-up. With the generalization, they are transformed from their *original* (more specific) values to *generalized* (more general) values until they conform to the requirements mandated by the algorithm, in practice.
+This can be transalated as : **0:100,0:50-0:25-25:50,50:100-50:75-75:100** - The *Root node* is represented by 0:100. *Root node* has three nodes in its left subtree: 0:50, 0:25 and 25:50. In the left subtree, 0:50 represents the root of the left subtree whereas 0:25 and 25:50 represent the left (leaf) child and the right (leaf) child, respectively. Similarly, *Root node* has three nodes in its right subtree: 50:100, 50:75 and 75:100. In the right subtree, 50:100 represents the root of the right subtree whereas 50:75 and 75:100 represent the left (leaf) child and the right (leaf) child, respectively. The attributes in this category are generalized bottom-up. With the generalization, they are transformed from their *original* (more specific) values to *generalized* (more general) values until they conform to the requirements mandated by the algorithm, in practice.
 
 ##A little about the output formats:
 * **genVals** : This format produces the expected anonymized output.
