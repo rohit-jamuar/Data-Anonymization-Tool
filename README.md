@@ -75,4 +75,4 @@ This can be transalated as : **0:100,0:50-0:25-25:50,50:100-50:75-75:100** - The
 4. The input file should be an unstructured text file - interfacing with commonly used database systems (SQLite, Postgres, etc.) is not possible, as of now.
 
 
-The Online application is hosted [here](http://data-anonymization-tool.herokuapp.com/).
+**The Online application is hosted [here](http://data-anonymization-tool.herokuapp.com/).**
